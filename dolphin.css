@@ -1,0 +1,53 @@
+.box{
+	width: 200px;
+	height: 50px;
+	border: 1px solid black;
+	background-color: #BBFFFF;
+
+	border-radius: 8px;  
+	box-shadow: 0 3px 10px gray;
+}
+.insideBox {
+	margin: 3px 4px 4px 4px;
+	width: 192px;
+	height: 8px;
+	background-color: #FFFAFA;
+
+	border-radius: 4px;  
+	box-shadow: 0 1px 5px #00C5CD;
+}
+.bottomBox {
+	margin: 27px 20px 4px 20px;
+	width: 160px;
+	height: 5px;	
+	border-bottom: 2px solid black;
+}
+.middleLeft,.middleRight {
+	border: 1px solid black;
+	width: 3px;
+	height: 3px;
+	background-color: #000000;
+	
+}
+#leftEye {
+	margin: 10px 5px 5px 10px;
+	float: left;
+}
+#rightEye{
+	margin: 10px 10px 5px 5px;
+	float: right;
+}
+.textarea {
+	float: left;
+	width: 160px;
+	height: 25px;
+}
+input {
+	font-family:arial, sans-serif;
+	font-size: 12pt;
+	color: #6A5ACD;
+	border: 0px;
+	background-color: transparent;
+	width: 160px;
+	height: 25px;	
+}
